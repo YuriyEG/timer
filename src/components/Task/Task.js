@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import { formatDistanceToNow } from 'date-fns';
-import './Task.css';
 import PropTypes from 'prop-types';
 
-import Timer from '../Timer/Timer';
-import Edit from '../Edit/Edit';
+import Timer from '../Timer';
+import Edit from '../Edit';
 
 function Task({ value, deleteTask, setTodoList, id, onToggleDone, important, done, time }) {
   const [editStatus, setEditStatus] = useState(false);

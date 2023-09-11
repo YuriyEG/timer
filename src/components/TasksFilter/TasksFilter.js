@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './TasksFilter.css';
 
 function TasksFilter({ setMode, all, active, completed }) {
   return (

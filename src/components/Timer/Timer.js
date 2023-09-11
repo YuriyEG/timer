@@ -1,8 +1,6 @@
 /* eslint-disable */
 
 import React, { useState } from 'react';
-
-import './Timer.css';
 import formatSeconds from '../../modules/formatSeconds';
 
 const Timer = () => {

@@ -1,8 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import TasksFilter from '../TasksFilter/TasksFilter';
-import './Footer.css';
+import TasksFilter from '../TasksFilter';
 
 class Footer extends React.Component {
   render() {

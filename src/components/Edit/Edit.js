@@ -1,8 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import './Edit.css';
-
 const Edit = ({ editValue, setValue, saveTodo, closeEdit }) => {
   return (
     <li className="editing">

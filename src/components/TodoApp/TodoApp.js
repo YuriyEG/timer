@@ -1,11 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Footer from '../Footer/Footer';
-import NewTaskForm from '../NewTaskForm/NewTaskForm';
-import TaskList from '../TaskList/TaskList';
-
-import './TodoApp.css';
+import Footer from '../Footer';
+import NewTaskForm from '../NewTaskForm';
+import TaskList from '../TaskList';
 
 class TodoApp extends React.Component {
   constructor() {
